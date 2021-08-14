@@ -1,0 +1,67 @@
+
+
+  .owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 10px;
+ background-color: white;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span,  
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #2caae1;
+  }
+ 
+ 
+  .owl-carousel .item {
+    /*width:100px !important;*/
+      text-align: center;
+      /*padding:20px;*/
+  }
+
+  
+
+
+
+
+  
+ 
+  
+
+  @media(min-width:992px){
+
+    .owl-carousel .nav-btn{
+      height: 50px;
+      position: absolute;
+      width: 42px;
+     
+      cursor: pointer;
+      top: 200px ;
+  }
+
+ 
+  .owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    pointer-events: none !important;
+    opacity: 0.2;
+  }
+ 
+  .owl-carousel .prev-slide{
+      background-image: url(left.png);
+      left: -36px;
+     
+  }
+  .owl-carousel .next-slide{
+      background: url(right.png) ;
+      right: -40px;
+     
+
+  }
+
+}
+
+
+
+
+
+
+  
